@@ -1,0 +1,76 @@
+Transform Tarkov into a RPG like Skyrim or Stalker with fokus on crafting, learning, looting, bartering
+
+Mods included:
+Realism
+Battery Mod
+Back Door Bandit
+Custom Medkits
+Path to Tarkov
+Dynamic Maps
+APBS
+SAIN
+Questing Bots
+Looting Boots
+Swag + Donuts (comp with PTT?)
+Softcore
+barter economy
+FOV fix
++++ QQL Mods
+Crafter / MoreHideoutCrafts
+Artem
+Painter
+Lotus
+crashed Heli sites (when i get it working)
+
+PTT Goal:
++ custom config with a mixture of travel need but also good reachable main hideout
++ Dynamic Maps labes
++ Trader locations for Custom Traders
++ Transfer / Send items to main stash mechanic? (Maybe like Raidoverhaul with a pickup)
+
+Dynamic Maps Goal:
++ Integration of paper map requirement to use ingame map, but without any markers
++ Phone unlocks GPS so you unlock your own location as marker
++ With BDB no Door markers needed
++ Other markers are only available wit the consumption of decrypted intel --> rng unlock map markers
++ Other player markers are allways off
++ maybe Satelite/ UAV item in lategame to unlock hotzones
+
+  Implementation:
+  + Hotzones are coded and wait for CJs rework of minimap for Push Request
+  + Requirements to show Map is missing: should be easy with item id in public var (maybe changeable via f12 advanced) and different mod should be able to override / set that ID to allow limmiting like mentioned above
+
+Crafter Goal:
++ rework of reciepts to be locked behind quests like the vanilla craft equivalents --> maybe dont use crafter but use MoreHideoutCrafts with multiple configs
+
+Crafting:
++ New Crafts for Armor and armor plates
+  + Refurbishing of Armor plates to a lower protection
+  + allow exchange of shape to fit different armor carriers
++ lock all crafts behind knwoledge
+  + Books like SkillsExtendet --> Quests to consume / read those books and gain access to crafting reciepes
+    + Split armor plates into material, refurbishing, reshaping
+    + maybe create mechanic to destroy plate carries to learn how to craft them
++ only civil version of weapons availabe at the start
+  + learning some crafts to convert weapons to militäry version
+  + learn some weapon crafts
+
+  Implementation:
+    + should be easy with MoreHideoutCrafts and crafting editor
+    + new quests needed for learning mechanic to lock crafts behind it
+
+Bronzeman / Loot overhaul :
++ only allow buy/ of civil weapon versions at the beginning until higher tier or find them in militäry areas
+
+Flea with softcore settings
+
+Barter economy for traders, but with reworked assortment of traders
+
+Assortment Rework for Vanilla and Mod traders to make it more difficult
+
+APBS own preset matching the speed of the new game
+
+
+Mod to code:
+ + Book and knowledge mechanic
+ + Dynamic maps limitation mechanic + reciepes
